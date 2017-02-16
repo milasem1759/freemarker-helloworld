@@ -1,3 +1,7 @@
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
 subprojects {
     version '1.0-SNAPSHOT'
 
