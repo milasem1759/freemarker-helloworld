@@ -1,8 +1,8 @@
 <#import "common.ftl" as c/>
-<#import "header.ftl" as h/>
-<#import "footer.ftl" as f/>
 
-<@c.page title="${title}" header=h.headerContent footer=f.footerContent>
+<@c.page title="${title}">
+    <@c.header/>
+
 <div class="about">
     <h1 class="about__header">
         Digital Zone — разработчик информационных систем полного цикла.</h1>
@@ -29,4 +29,6 @@
 
     <img src="images/dz-foto.jpg" class="about__photo-in-text">
 </div>
+
+    <@c.footer/>
 </@c.page>

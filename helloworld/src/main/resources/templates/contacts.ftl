@@ -1,8 +1,7 @@
 <#import "common.ftl" as c/>
-<#import "header.ftl" as h/>
-<#import "footer.ftl" as f/>
 
-<@c.page title="${title}" header=h.headerContent footer=f.footerContent>
+<@c.page title="${title}">
+    <@c.header/>
 
 <h1 class="contacts__header">НАШИ ОФИСЫ</h1>
 
@@ -25,4 +24,5 @@
     </#list>
 </div>
 
+    <@c.footer/>
 </@c.page>

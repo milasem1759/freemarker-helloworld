@@ -1,8 +1,7 @@
 <#import "common.ftl" as c/>
-<#import "header.ftl" as h/>
-<#import "footer.ftl" as f/>
 
-<@c.page title="${title}" header=h.headerContent footer=f.footerContent>
+<@c.page title="${title}">
+    <@c.header/>
 
 <article class="info-block">
     <div class="info-block__container">
@@ -26,4 +25,10 @@
         </p>
     </div>
 </article>
+
+    <#assign dzPhoto="photo.ftl">
+    <@c.pictureUnit photo=dzPhoto/>
+
+    <@c.footer/>
+
 </@c.page>
