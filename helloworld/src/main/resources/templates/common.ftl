@@ -11,9 +11,7 @@
 
 <body>
 <div class="page">
-    <div class="content">
-        <#nested/>
-    </div>
+    <#nested/>
 </div>
 </body>
 </html>
