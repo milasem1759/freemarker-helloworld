@@ -1,7 +1,7 @@
 <#import "common.ftl" as c/>
 
 <@c.page title="${title}">
-    <@c.header/>
+    <@c.h.header/>
 
 <div class="about">
     <h1 class="about__header">
@@ -30,5 +30,5 @@
     <img src="images/dz-foto.jpg" class="about__photo-in-text">
 </div>
 
-    <@c.footer/>
+    <@c.f.footer/>
 </@c.page>
